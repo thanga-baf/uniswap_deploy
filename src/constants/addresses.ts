@@ -13,7 +13,11 @@ export const MULTICALL_ADDRESS: AddressMap = {
   [SupportedChainId.ARBITRUM_RINKEBY]: '0xa501c031958F579dB7676fF1CE78AD305794d579',
 }
 export const V2_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(V2_FACTORY_ADDRESS)
+<<<<<<< HEAD
 export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0xcEFbcbFdae644B74acf06AEADB5053b651995b59')
+=======
+export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0x7EF2e0048f5bAeDe046f6BF797943daF4ED8CB47')
+>>>>>>> a43bf7d9ac2d43e74acfd06c3da705e0906d648b
 
 /**
  * The older V0 governance account
@@ -66,7 +70,11 @@ export const ENS_REGISTRAR_ADDRESSES: AddressMap = {
 export const SOCKS_CONTROLLER_ADDRESSES: AddressMap = {
   [SupportedChainId.MAINNET]: '0x65770b5283117639760beA3F867b69b3697a91dd',
 }
+<<<<<<< HEAD
 export const SWAP_ROUTER_ADDRESSES: AddressMap = constructSameAddressMap('0xcEFbcbFdae644B74acf06AEADB5053b651995b59', [
+=======
+export const SWAP_ROUTER_ADDRESSES: AddressMap = constructSameAddressMap('0xE592427A0AEce92De3Edee1F18E0157C05861564', [
+>>>>>>> a43bf7d9ac2d43e74acfd06c3da705e0906d648b
   SupportedChainId.OPTIMISM,
   SupportedChainId.OPTIMISTIC_KOVAN,
   SupportedChainId.ARBITRUM_ONE,
